@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Ciberseguridad, Generalidades y aplicaciones',
+    descripcionCurso:
+      'Almacenar y clasificar los datos es cada vez más importante, se deben considerar diversas técnicas, análisis y normas que aporten al crecimiento de la organización. La manipulación de volúmenes de datos trae consigo un alto grado de responsabilidad en seguridad, clasificación, conservación y no duplicación de los datos recolectados, exigiendo que se respeten y monitoreen los riesgos que pueden presentarse.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -32,14 +33,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Generalidades de la Ciberseguridad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Normativa',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Perfil profesional y funciones',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Proceso para la gestión de seguridad digital',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Documentación y reporte de procesos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -48,7 +67,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Aplicación de Ciberseguridad',
         desarrolloContenidos: true,
       },
       {
