@@ -2,13 +2,26 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 45%
+    right: 97%
+    width: 18%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 4%
+    right: 0%
+
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 9%
+    right: 85%
+    width: 23%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 0%
 
 
 @keyframes float1
@@ -18,10 +31,17 @@
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
 .bgr-tarjeta-2:before
     background: #AAB2D3
 .bgr-tarjeta-2
-    background: #FFF6F0
+    background: #EAECF4
 
 .bgr-tarjeta-3:before
     background: #FFF2BF
@@ -30,6 +50,9 @@
 
 .bgr-tarjeta-4
     background: #DADEEC
+
+.bgr-tarjeta-5
+    background: #727997
 
 .img24-bgr
     background: #D3D3D3
@@ -59,6 +82,71 @@
 
 .width-img30
     width: 40%
-    margin-left: 35%
+    margin-left: 29%
 
+@media (max-width: 500px) 
+    .width-img30
+        width: 90%
+        margin-left: 5%
+
+.tarjeta-tema2
+    width: 40%
+    margin-left: 29%
+
+@media (max-width: 500px) 
+    .tarjeta-tema2
+        width: 80%
+        margin-left: 10%
+
+.img-tarjeta-tema2
+    width: 60%
+    margin-left: 20%
+
+@media (max-width: 500px) 
+    .img-tarjeta-tema2
+        width: 40%
+        margin-left: 30%
+
+.img-infografica__item
+    width: 7.5% !important
+
+.img-actividad
+    width: 80% 
+    margin-top: 20%
+    margin-left: 15%
+
+
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FFF2BF
   
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.tarjeta-SGSI-posicion-1
+    top: 15% !important
+    left: 30% !important
+
+@media (max-width:500px)  
+
+    .tarjeta-SGSI-posicion-1
+        top: 15% !important
+        left: 19% !important
+
+
