@@ -243,31 +243,31 @@ export default {
     datosSlyder3: [
       {
         texto:
-          'Software antivirus<br><br>En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a software malicioso o cualquier otro tipo de malware; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.<br><br>Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los malware están en continua evolución.',
+          '<b>Software antivirus</b><br><br>En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a software malicioso o cualquier otro tipo de malware; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.<br><br>Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los malware están en continua evolución.',
         imagen: require('@/assets/curso/temas/tema2/img13.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          'Firewall perimetral de red<br><br>Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
+          '<b>Firewall perimetral de red</b><br><br>Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
         imagen: require('@/assets/curso/temas/tema2/img14.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          'Servidor proxy<br><br>Un proxy es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
+          '<b>Servidor proxy</b><br><br>Un proxy es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
         imagen: require('@/assets/curso/temas/tema2/img15.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          'Cifrado de punto final o end point disk encryption<br><br>Contiene el proceso para codificación de datos, de tal forma que no puedan ser leídos por agentes externos que no cuenten con la clave para decodificarlos. Es decir, genera protección de los sistemas operativos ante cualquier instalación o ejecución de agentes corruptos, logrando bloquear todos los archivos almacenados en el servidor, o cualquier otro punto final.',
+          '<b>Cifrado de punto final o end point disk encryption</b><br><br>Contiene el proceso para codificación de datos, de tal forma que no puedan ser leídos por agentes externos que no cuenten con la clave para decodificarlos. Es decir, genera protección de los sistemas operativos ante cualquier instalación o ejecución de agentes corruptos, logrando bloquear todos los archivos almacenados en el servidor, o cualquier otro punto final.',
         imagen: require('@/assets/curso/temas/tema2/img16.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          'Escáner de vulnerabilidades<br><br>Es un software que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado. Con este sistema se puede controlar las amenazas y consecuencias en los activos digitales, además de generar alertas en tiempo real, ayudando a solucionar incidentes sin que se llegue a comprometer el normal desarrollo de los procesos en las empresas.',
+          '<b>Escáner de vulnerabilidades</b><br><br>Es un software que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado. Con este sistema se puede controlar las amenazas y consecuencias en los activos digitales, además de generar alertas en tiempo real, ayudando a solucionar incidentes sin que se llegue a comprometer el normal desarrollo de los procesos en las empresas.',
         imagen: require('@/assets/curso/temas/tema2/img17.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

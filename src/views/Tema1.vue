@@ -21,7 +21,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center.mt-5 Accesos no autorizados
-              p.text-center Evitar los accesos no autorizados a los equipos y a la información,
+              p.text-center Evitar los accesos no autorizados a los equipos y a la información
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}")
       
       .col-8.col-lg-3.mt-3
@@ -30,7 +30,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center.mt-5 No tocar
-              p.text-center Evitar la manipulación de los equipos y de la información por medio de terceros no autorizados, 
+              p.text-center Evitar la manipulación de los equipos y de la información por medio de terceros no autorizados
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img3.png')})`}")
       
       .col-8.col-lg-3.mt-3
@@ -39,7 +39,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center.mt-5 No destruir la información
-              p.text-center Evitar la destrucción de la información, 
+              p.text-center Evitar la destrucción de la información
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img4.png')})`}")
     
     .row.mt-4.justify-content-center
@@ -49,7 +49,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center.mt-5 Prohibido
-              p.text-center Evitar los usos indebidos de la información, 
+              p.text-center Evitar los usos indebidos de la información
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img5.png')})`}")
       
       .col-8.col-lg-3.mt-3
@@ -58,7 +58,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center Claves y contraseñas confidenciales
-              p.text-center Evitar el suministro de información a personas no autorizadas o claves de accesos a equipos que tengan el control de la red, 
+              p.text-center Evitar el suministro de información a personas no autorizadas o claves de accesos a equipos que tengan el control de la red
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img6.png')})`}")
 
     .row.mt-5.justify-content-center
@@ -169,7 +169,7 @@
     .row.justify-content-center
       .col-10.col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen').img10-tema1
       .col-10.col-lg-7.mt-5
         p Además de la normativa legal en la empresa se deben establecer unas políticas de usuario que permitan el desarrollo de un sistema de Gestión de Seguridad de la Información, que debe iniciar con la documentación de procesos y conociendo cómo opera la organización, también revisar el manual de funciones de cada empleado cómo paso fundamental para aplicar el ciclo Planear-Hacer-Verificar-Actuar PHVA, y en la acción, para planear es necesario conocer los procesos digitales críticos en la organización, que luego detalladamente se deben analizar para implementar controles que puedan proteger los procesos implementados ante amenazas cibernéticas.
 
@@ -438,7 +438,10 @@
       .tarjeta.color-primario.p-3(x="19%" y="84%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
 
-    p.text-center.mt-3 El SGSI y la gestión del riesgo-Guía Icontec internacional de educación. Fuente: Guía de Gestión de riesgos de seguridad de la información, 2021
+    .row.justify-content-center
+      .col-11
+        .tarjeta.tarjeta--gris.p-3.mt-3
+          p.text-center.mt-3 El SGSI y la gestión del riesgo-Guía Icontec internacional de educación. Fuente: Guía de Gestión de riesgos de seguridad de la información, 2021
 
 
     separador
@@ -455,8 +458,56 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video 
 
-    p El documento con la información y los reportes de procesos se divide en las siguientes partes:
-        
+    p.mt-5 El documento con la información y los reportes de procesos se divide en las siguientes partes:
+
+
+    TabsB.color-primario.mt-5
+      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img31.png')")
+        .row
+          .col-md-6
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Portada.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Resumen.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Índice.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Glosario de signos, símbolos, unidades, abreviaturas, términos técnicos.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Prefacio.
+          .row.justify-content-center.mt-5
+            .col-10
+              figure
+                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img32.png')")
+        .row
+          .col-md-6
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Introducción.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Núcleo del informe con tablas, imágenes y demás material complementarios.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Conclusiones y recomendaciones.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Agradecimientos.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Listas de referencia.
+          .row.justify-content-center.mt-5
+            .col-10
+              figure
+                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img33.png')")
+        .row
+          .col-md-6
+              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, software, etc.
+          .row.justify-content-center.mt-5
+            .col-10
+              figure
+                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img34.png')")
+        .row
+          .col-md-6
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Hojas de datos del documento.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Lista de distribución y disponibilidad.
+              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Cubierta posterior, si se requiere.
+          .row.justify-content-center.mt-5
+            .col-10
+              figure
+                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+
 
 </template>
 
