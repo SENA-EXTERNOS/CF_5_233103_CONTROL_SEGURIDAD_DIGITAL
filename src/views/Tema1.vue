@@ -109,6 +109,14 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
               .col-10.mt-3
+                p Ley 1266 de 2008: Por medio de la cual se dictan las disposiciones generales de habeas data.
+          
+          .cajon.bgr-tarjeta-2.p-4.mt-3
+            .row.justify-content-center
+              .col-4.col-lg-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+              .col-10.mt-3
                 p Ley 1273 de 2009: Modifica el código penal y crea como bien jurídico tutelado la protección de la información y de los datos.
 
           .cajon.bgr-tarjeta-2.p-4.mt-3
@@ -119,13 +127,6 @@
               .col-10.mt-3
                 p Ley 1581 de 2012: Principios y disposiciones que definen los derechos sobre los datos personales y denuncia de las violaciones de seguridad.
 
-          .cajon.bgr-tarjeta-2.p-4.mt-3
-            .row.justify-content-center
-              .col-4.col-lg-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
-              .col-10.mt-3
-                p Ley 1266 de 2008: Por medio de la cual se dictan las disposiciones generales de habeas data.
 
           .cajon.bgr-tarjeta-2.p-4.mt-3
             .row.justify-content-center

@@ -149,15 +149,15 @@ export default {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2014). Tecnología De La Información: Técnicas De Seguridad. Gestión De Incidentes De Seguridad De La Información. Bogotá: ICONTEC.',
       tipo: 'Libro',
-      descarga:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887 ',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
     },
     {
       tema: 'The rise of “malware”: Bibliometric analysis of malware study',
       referencia:
         'Razak, M. F. A. Nor Badrul Anuar, N.B. Salleh, R. and Ahmad, F. (2016) "The Rise of “malware”: Bibliometric Analysis of Malware Study." Journal of Network and Computer Applications 75 (2016): 58-76. Web.',
       tipo: 'Libro',
-      descarga:
+      link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracacademiconefile_A518245030',
     },
   ],
@@ -170,7 +170,7 @@ export default {
     {
       termino: 'Ciberseguridad',
       significado:
-        'Ciberseguridad	consiste en la protección y confidencialidad de sistemas e información.',
+        'consiste en la protección y confidencialidad de sistemas e información.',
     },
     {
       termino: 'Escáner de vulnerabilidades',
@@ -190,7 +190,7 @@ export default {
     {
       termino: 'Hardware',
       significado:
-        'Hardware	componentes físicos del computador, es decir, todo lo que se puede ver y tocar.',
+        'componentes físicos del computador, es decir, todo lo que se puede ver y tocar.',
     },
     {
       termino: 'Incidente',
@@ -215,7 +215,7 @@ export default {
     {
       termino: 'Software',
       significado:
-        'Software	todos los programas que contribuyen al funcionamiento de un conjunto de procesamiento de datos. (Sistemas operativos, aplicaciones, etc.)',
+        'todos los programas que contribuyen al funcionamiento de un conjunto de procesamiento de datos. (Sistemas operativos, aplicaciones, etc.)',
     },
   ],
   referencias: [
