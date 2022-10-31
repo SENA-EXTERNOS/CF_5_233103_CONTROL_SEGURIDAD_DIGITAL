@@ -211,7 +211,18 @@
               h3.text-center.mt-5 Disponibilidad:
               p.text-center.mt-3 Garantizar el acceso a las personas con los permisos o credenciales requeridas.
 
-      
+    .row
+      .col-lg-2
+      .col-lg-8
+        .cajon.bgr-tarjeta-2.p-4.mt-3
+          .row.justify-content-center
+            .col-lg-12
+              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+        
+      .col-lg-2
+    
+          
+    
 
 </template>
 

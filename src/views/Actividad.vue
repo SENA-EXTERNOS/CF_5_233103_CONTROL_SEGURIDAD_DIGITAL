@@ -19,7 +19,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       
       .col-12.col-md-8.col-lg-9
-        p.mt-5 Este recorrido introductorio sobre la administración, proporciona conceptos claves de aplicación para la práctica empresarial y organizacional; por esta razón es importante realizar un repaso sobre los principales temas abordados, con la intención de afianzar y reforzar al aprendiz.
+        p.mt-5 Llegó el momento de validar los aprendizajes adquiridos con el estudio del componente formativo.  Por favor relacionar cada término con la definición, arrastrando y soltando donde corresponda.  
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
