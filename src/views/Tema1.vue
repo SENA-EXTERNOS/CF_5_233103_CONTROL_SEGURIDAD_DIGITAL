@@ -228,14 +228,14 @@
           .col-4
             img(src='@/assets/curso/temas/tema1/img36.svg' alt='AvatarTop')
         p.text-center.text-small #[b Identificación de procesos y activos]
-        p.text-center.text-small.mb-5 Junto con cada uno de los departamentos de la organización se identifican los procesos y activos, para determinar cuáles son los de nivel crítico, que al darse un ataque podrían afectar la operación e incluso la continuidad del negocio.
+        p.text-center.text-small.mb-4 Junto con cada uno de los departamentos de la organización se identifican los procesos y activos, para determinar cuáles son los de nivel crítico, que al darse un ataque podrían afectar la operación e incluso la continuidad del negocio.
 
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/img37.svg' alt='AvatarTop')
         p.text-center.text-small #[b Identificar Amenazas]
-        p.text-center.text-small.mb-5 Luego de realizar el inventario de activos, se procede a identificar cada una de las amenazas a los que estos están expuestos. Para esto se pueden aplicar metodológicas establecidas como Magerit, octave, cobit, etc.
+        p.text-center.text-small.mb-4 Luego de realizar el inventario de activos, se procede a identificar cada una de las amenazas a los que estos están expuestos. Para esto se pueden aplicar metodológicas establecidas como Magerit, octave, cobit, etc.
 
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
