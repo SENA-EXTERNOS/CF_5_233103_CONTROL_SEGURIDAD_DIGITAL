@@ -65,7 +65,7 @@
       .col-10.col-lg-9
         p Cuando las medidas siguen estos objetivos se puede establecer un tratamiento optimizado de los equipos y datos personales desde cualquier perspectiva o naturaleza.
 
-        p En el  desarrollo de las tecnologías, software y algoritmo del sistema de información se presentan unos riesgos que influyen sobre la planificación en la protección de la red y el tratamiento de los datos o sistemas de información, por ejemplo: dentro de la operación de algoritmos se pueden producir sesgos humanos o fallas técnicas en la implementación, sólo a través de estas medidas se podrán controlar y evaluar los riesgos desde la normativa para que no afecten la seguridad de la información y no se vulneren los derechos de los titulares de los datos.
+        p En el  desarrollo de las tecnologías, #[i software] y algoritmo del sistema de información se presentan unos riesgos que influyen sobre la planificación en la protección de la red y el tratamiento de los datos o sistemas de información, por ejemplo: dentro de la operación de algoritmos se pueden producir sesgos humanos o fallas técnicas en la implementación, sólo a través de estas medidas se podrán controlar y evaluar los riesgos desde la normativa para que no afecten la seguridad de la información y no se vulneren los derechos de los titulares de los datos.
 
       .col-10.col-lg-3
         figure
@@ -79,7 +79,7 @@
       h2 1.1 Normativa
 
     .row
-      p En Colombia, las normas asociadas a la explotación de datos, protección y denuncia surgen por diferentes necesidades y objetivos, que requieren un alcance que no está directamente relacionado con la aplicabilidad de Big Data. Sin embargo, es importante conocer que existen normas, decretos, leyes que respaldan y protegen la explotación de datos.
+      p En Colombia, las normas asociadas a la explotación de datos, protección y denuncia surgen por diferentes necesidades y objetivos, que requieren un alcance que no está directamente relacionado con la aplicabilidad de #[i Big Data]. Sin embargo, es importante conocer que existen normas, decretos, leyes que respaldan y protegen la explotación de datos.
 
     .tarjeta.border.mt-4
       .row.justify-content-center
@@ -133,7 +133,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
               .col-10.mt-3
-                p ⮚	Decreto 1377 de 2012: Reglamentó aspectos relacionados con la titularidad del uso de la información para el tratamiento de sus datos personales.
+                p Decreto 1377 de 2012: Reglamentó aspectos relacionados con la titularidad del uso de la información para el tratamiento de sus datos personales.
 
         .col-10.col-lg-6
           figure
@@ -199,7 +199,7 @@
 
           .row(numero="5" titulo="No descargar contenido pirata:")
             .col-12.mb-4.mb-md-0
-              p.text-small Descargar música, libros, películas, videos, software de sitios recomendables, siempre tener cuidado de páginas poco conocidas.
+              p.text-small Descargar música, libros, películas, videos, #[i software] de sitios recomendables, siempre tener cuidado de páginas poco conocidas.
 
           .row(numero="6" titulo="Realizar una copia de seguridad:")
             .col-12.mb-4.mb-md-0
@@ -260,7 +260,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen')
                 .col-lg-8.mt-3
-                  p Encargado de la seguridad del hardware y software de toda la red, elementos como routers, switches, firewalls, IDS, IPS, DNS etc.
+                  p Encargado de la seguridad del #[i hardware]y #[i software] de toda la red, elementos como #[i routers, switches, firewalls,] IDS, IPS, DNS etc.
 
           .row(titulo="Jefe de sistemas -CIO")
             .col-12
@@ -314,7 +314,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen')
                 .col-lg-8.mt-3
-                  p Puede ser interno o externo, teniendo grandes conocimientos en seguridad ofensiva  y se encarga de realizar test de penetración y pruebas en general para determinar el estado de seguridad informática de los ciberactivos críticos, detectando amenazas y vulnerabilidades que puedan materializarse con el ataque de delincuentes informáticos.
+                  p Puede ser interno o externo, teniendo grandes conocimientos en seguridad ofensiva  y se encarga de realizar #[i test] de penetración y pruebas en general para determinar el estado de seguridad informática de los ciberactivos críticos, detectando amenazas y vulnerabilidades que puedan materializarse con el ataque de delincuentes informáticos.
 
           .row(titulo="Auditor de seguridad de la información")
             .col-12
@@ -455,8 +455,8 @@
 
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/63ke83Pc-yw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Documentación y reporte de procesos 
 
     p.mt-5 El documento con la información y los reportes de procesos se divide en las siguientes partes:
 
@@ -491,7 +491,7 @@
       .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img33.png')")
         .row
           .col-md-6
-              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, software, etc.
+              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, #[i software], etc.
           .row.justify-content-center.mt-5
             .col-10
               figure

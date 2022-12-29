@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen').img10-tema1
 
       .col-10.col-lg-8.mt-5
-        p En la implementación de la ciberseguridad en la organización son necesarias herramientas de hardware y software, además de cumplir con las directrices de las políticas y normas establecidas para efectos de seguridad de la información, en pro de la accesibilidad y perdurabilidad de la información digital. Para el desarrollo de este tema se presenta un ejemplo de software malicioso, una lista de recomendaciones de cómo protegerse contra el malware y cómo realizar el registro de eventos e incidentes, le invito a explorar el contenido a continuación.  
+        p En la implementación de la ciberseguridad en la organización son necesarias herramientas de #[i hardware] y #[i software], además de cumplir con las directrices de las políticas y normas establecidas para efectos de seguridad de la información, en pro de la accesibilidad y perdurabilidad de la información digital. Para el desarrollo de este tema se presenta un ejemplo de #[i software] malicioso, una lista de recomendaciones de cómo protegerse contra el #[i malware] y cómo realizar el registro de eventos e incidentes, le invito a explorar el contenido a continuación.  
 
         .row.justify-content-around.align-items-center.mt-5.mb-5
           .row.justify-content-around.align-items-center
@@ -23,14 +23,14 @@
                   .col-12
                     p De acuerdo a los nuevos requerimientos de la administración pública derivados de la Ley de Transparencia, Ley de Protección de Datos y Ley General de Archivos, nace la necesidad de crear una directriz que permita a las entidades garantizar la accesibilidad y perdurabilidad de la información digital. De este modo, se genera el uso de diversos formatos, medios, equipos de almacenamiento digital y surgen nuevas formas de buscar y analizar la información.
 
-                    p En la actualidad, la mayor parte de la información reside en servidores, redes de información y almacenamientos como nube, discos extraíbles, Backups, enmarcados dentro de lo que se conoce como sistemas de información. Estos sistemas de información están sujetos a vulnerabilidades, ataques informáticos, riesgos e inseguridades dentro de la propia organización como desde fuera.
+                    p En la actualidad, la mayor parte de la información reside en servidores, redes de información y almacenamientos como nube, discos extraíbles, #[i Backups], enmarcados dentro de lo que se conoce como sistemas de información. Estos sistemas de información están sujetos a vulnerabilidades, ataques informáticos, riesgos e inseguridades dentro de la propia organización como desde fuera.
 
-    p Ejemplo de software malicioso
+    p Ejemplo de #[i software] malicioso
 
     SlyderB.mb-5(:datos="datosSlyder2")
 
     .row.mt-5
-      p Cómo protegerse contra el malware
+      p Cómo protegerse contra el #[i malware]
 
     ImagenInfografica.mt-5.mb-5.d-none.d-md-block
       template(v-slot:imagen)
@@ -143,7 +143,7 @@
     #t_2_1
 
     .titulo-segundo.color-acento-contenido.mt-5
-      h2 2.1  Herramientas de hardware y software
+      h2 2.1  Herramientas de #[i hardware] y #[i software]
 
 
     .row.justify-content-center.mt-5
@@ -210,8 +210,8 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h3.text-center.mt-5 Disponibilidad:
               p.text-center.mt-3 Garantizar el acceso a las personas con los permisos o credenciales requeridas.
-
-      
+   
+    
 
 </template>
 
@@ -223,19 +223,19 @@ export default {
     datosSlyder2: [
       {
         texto:
-          'Un ejemplo claro es el software malicioso más conocido como “malware”, éste es un software diseñado por un tercero con la única finalidad de obtener acceso no autorizado a un equipo para robar información o simplemente dañarlo. En la actualidad existen diferentes tipos de malware: spyware, registradores de pulsaciones, virus, gusanos, etc.',
+          'Un ejemplo claro es el <i>software</i> malicioso más conocido como “<i>malware</i>”, éste es un <i>software</i> diseñado por un tercero con la única finalidad de obtener acceso no autorizado a un equipo para robar información o simplemente dañarlo. En la actualidad existen diferentes tipos de <i>malware</i>: <i>spyware</i>, registradores de pulsaciones, virus, gusanos, etc.',
         imagen: require('@/assets/curso/temas/tema2/img2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          'La creación de malware cada vez aumenta más, esto se debe a que se crean nuevos tipos de malware a diario por el uso activo de los usuarios de las redes que son vulnerables a los ataques cibernéticos. Inicialmente, el malware se creó a manera de entretenimiento, pero luego evolucionó al vandalismo y destrucción de equipos. Hoy en día, la mayoría de malware son creados para ganar dinero mediante extorsión (ransomware), publicidad forzada (publicidad no deseada), difusión de spam o pornografía por correo electrónico (equipos zombis), robo de información confidencial (spyware).',
+          'La creación de <i>malware</i> cada vez aumenta más, esto se debe a que se crean nuevos tipos de <i>malware</i> a diario por el uso activo de los usuarios de las redes que son vulnerables a los ataques cibernéticos. Inicialmente, el <i>malware</i> se creó a manera de entretenimiento, pero luego evolucionó al vandalismo y destrucción de equipos. Hoy en día, la mayoría de <i>malware</i> son creados para ganar dinero mediante extorsión (<i>ransomware</i>), publicidad forzada (publicidad no deseada), difusión de spam o pornografía por correo electrónico (equipos zombis), robo de información confidencial (<i>spyware</i>).',
         imagen: require('@/assets/curso/temas/tema2/img3.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          'Diversos factores pueden hacer que un equipo sea más vulnerable a ataques de malware, como equipos de trabajo sin la licencia de un antivirus confiable, desactualización de base de datos de antivirus y sistemas operativos, defectos en el diseño del sistema operativo, equipos conectados a una red que estén ejecutando el mismo sistema operativo, etc.',
+          'Diversos factores pueden hacer que un equipo sea más vulnerable a ataques de <i>malware</i>, como equipos de trabajo sin la licencia de un antivirus confiable, desactualización de base de datos de antivirus y sistemas operativos, defectos en el diseño del sistema operativo, equipos conectados a una red que estén ejecutando el mismo sistema operativo, etc.',
         imagen: require('@/assets/curso/temas/tema2/img4.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -243,7 +243,7 @@ export default {
     datosSlyder3: [
       {
         texto:
-          '<b>Software antivirus</b><br><br>En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a software malicioso o cualquier otro tipo de malware; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.<br><br>Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los malware están en continua evolución.',
+          '<b><i>Software</i> antivirus</b><br><br>En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a <i>software</i> malicioso o cualquier otro tipo de <i>malware</i>; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.<br><br>Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los <i>malware</i> están en continua evolución.',
         imagen: require('@/assets/curso/temas/tema2/img13.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -267,7 +267,7 @@ export default {
       },
       {
         texto:
-          '<b>Escáner de vulnerabilidades</b><br><br>Es un software que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado. Con este sistema se puede controlar las amenazas y consecuencias en los activos digitales, además de generar alertas en tiempo real, ayudando a solucionar incidentes sin que se llegue a comprometer el normal desarrollo de los procesos en las empresas.',
+          '<b>Escáner de vulnerabilidades</b><br><br>Es un <i>software</i> que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado. Con este sistema se puede controlar las amenazas y consecuencias en los activos digitales, además de generar alertas en tiempo real, ayudando a solucionar incidentes sin que se llegue a comprometer el normal desarrollo de los procesos en las empresas.',
         imagen: require('@/assets/curso/temas/tema2/img17.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
