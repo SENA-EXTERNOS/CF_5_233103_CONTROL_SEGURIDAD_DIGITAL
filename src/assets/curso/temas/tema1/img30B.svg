@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="544" height="546" viewBox="0 0 544 546">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="432" height="419" viewBox="0 0 432 419">
   <defs>
     <clipPath id="clip-path">
       <path id="Trazado_187876" data-name="Trazado 187876" d="M0,0H361.742V368.105H0Z" fill="none"/>
@@ -6,7 +6,7 @@
     <clipPath id="clip-path-2">
       <rect id="Rectángulo_38429" data-name="Rectángulo 38429" width="361.744" height="368.105" fill="none"/>
     </clipPath>
-    <filter id="Elipse_5080" x="123.424" y="123.818" width="298" height="298" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_5080" x="66" y="62" width="298" height="298" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -16,28 +16,28 @@
     <clipPath id="clip-path-4">
       <rect id="Rectángulo_40492" data-name="Rectángulo 40492" width="112.744" height="104.486" fill="none"/>
     </clipPath>
-    <filter id="Elipse_5082" x="207" y="0" width="131" height="131" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_5082" x="298" y="0" width="131" height="131" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Elipse_5082-2" x="413" y="207.318" width="131" height="131" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_5082-2" x="301" y="288" width="131" height="131" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Elipse_5082-3" x="0" y="193.814" width="131" height="131" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_5082-3" x="0" y="0" width="131" height="131" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-4"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-4"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Elipse_5082-4" x="207" y="415" width="131" height="131" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_5082-4" x="0" y="288" width="131" height="131" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-5"/>
       <feFlood flood-opacity="0.161"/>
@@ -45,8 +45,8 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_130052" data-name="Grupo 130052" transform="translate(-527.5 -9157.182)">
-    <g id="Grupo_127757" data-name="Grupo 127757" transform="translate(-6594.998 3163.448) rotate(-45)">
+  <g id="Grupo_127762" data-name="Grupo 127762" transform="translate(-585 -9450)">
+    <g id="Grupo_127757" data-name="Grupo 127757">
       <g id="Grupo_127744" data-name="Grupo 127744" transform="translate(619 9474)">
         <g id="Enmascarar_grupo_110" data-name="Enmascarar grupo 110" transform="translate(0 0)" clip-path="url(#clip-path)">
           <g id="Grupo_124787" data-name="Grupo 124787" transform="translate(0 0.001)">
@@ -59,9 +59,9 @@
           </g>
         </g>
       </g>
-      <g id="Grupo_127756" data-name="Grupo 127756" transform="translate(7064.259 2262.37) rotate(45)">
-        <g transform="matrix(1, 0, 0, 1, 527.58, 9389.18)" filter="url(#Elipse_5080)">
-          <circle id="Elipse_5080-2" data-name="Elipse 5080" cx="140" cy="140" r="140" transform="translate(132.42 129.82)" fill="#d9d9d9"/>
+      <g id="Grupo_127756" data-name="Grupo 127756" transform="translate(0 -1)">
+        <g transform="matrix(1, 0, 0, 1, 585, 9451)" filter="url(#Elipse_5080)">
+          <circle id="Elipse_5080-2" data-name="Elipse 5080" cx="140" cy="140" r="140" transform="translate(75 68)" fill="#d9d9d9"/>
         </g>
         <circle id="Elipse_5081" data-name="Elipse 5081" cx="130" cy="130" r="130" transform="translate(670 9529)" fill="#fff"/>
         <g id="Grupo_127749" data-name="Grupo 127749" transform="translate(1.592 3.949)">
@@ -339,30 +339,30 @@
         </g>
       </g>
     </g>
-    <g id="Grupo_127758" data-name="Grupo 127758" transform="translate(-148.5 -292.818)">
-      <g transform="matrix(1, 0, 0, 1, 676, 9450)" filter="url(#Elipse_5082)">
-        <circle id="Elipse_5082-5" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(216 6)" fill="#fff"/>
+    <g id="Grupo_127758" data-name="Grupo 127758">
+      <g transform="matrix(1, 0, 0, 1, 585, 9450)" filter="url(#Elipse_5082)">
+        <circle id="Elipse_5082-5" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(307 6)" fill="#fff"/>
       </g>
       <circle id="Elipse_5083" data-name="Elipse 5083" cx="47.5" cy="47.5" r="47.5" transform="translate(901 9465)" fill="#0d2380"/>
       <text id="P" transform="translate(933 9530)" fill="#fff2bf" font-size="50" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">P</tspan></text>
     </g>
-    <g id="Grupo_127759" data-name="Grupo 127759" transform="translate(57.5 -85.5)">
-      <g transform="matrix(1, 0, 0, 1, 470, 9242.68)" filter="url(#Elipse_5082-2)">
-        <circle id="Elipse_5082-6" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(422 213.32)" fill="#fff"/>
+    <g id="Grupo_127759" data-name="Grupo 127759" transform="translate(3 288)">
+      <g transform="matrix(1, 0, 0, 1, 582, 9162)" filter="url(#Elipse_5082-2)">
+        <circle id="Elipse_5082-6" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(310 294)" fill="#fff"/>
       </g>
       <circle id="Elipse_5083-2" data-name="Elipse 5083" cx="47.5" cy="47.5" r="47.5" transform="translate(901 9465)" fill="#0d2380"/>
       <text id="H" transform="translate(931 9530)" fill="#fff2bf" font-size="50" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">H</tspan></text>
     </g>
-    <g id="Grupo_127760" data-name="Grupo 127760" transform="translate(-355.5 -99.004)">
-      <g transform="matrix(1, 0, 0, 1, 883, 9256.19)" filter="url(#Elipse_5082-3)">
-        <circle id="Elipse_5082-7" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(9 199.81)" fill="#fff"/>
+    <g id="Grupo_127760" data-name="Grupo 127760" transform="translate(-298)">
+      <g transform="matrix(1, 0, 0, 1, 883, 9450)" filter="url(#Elipse_5082-3)">
+        <circle id="Elipse_5082-7" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(9 6)" fill="#fff"/>
       </g>
       <circle id="Elipse_5083-3" data-name="Elipse 5083" cx="47.5" cy="47.5" r="47.5" transform="translate(901 9465)" fill="#0d2380"/>
       <text id="A" transform="translate(933 9530)" fill="#fff2bf" font-size="50" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">A</tspan></text>
     </g>
-    <g id="Grupo_127761" data-name="Grupo 127761" transform="translate(-148.5 122.182)">
-      <g transform="matrix(1, 0, 0, 1, 676, 9035)" filter="url(#Elipse_5082-4)">
-        <circle id="Elipse_5082-8" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(216 421)" fill="#fff"/>
+    <g id="Grupo_127761" data-name="Grupo 127761" transform="translate(-298 288)">
+      <g transform="matrix(1, 0, 0, 1, 883, 9162)" filter="url(#Elipse_5082-4)">
+        <circle id="Elipse_5082-8" data-name="Elipse 5082" cx="56.5" cy="56.5" r="56.5" transform="translate(9 294)" fill="#fff"/>
       </g>
       <circle id="Elipse_5083-4" data-name="Elipse 5083" cx="47.5" cy="47.5" r="47.5" transform="translate(901 9465)" fill="#0d2380"/>
       <text id="V" transform="translate(933 9530)" fill="#fff2bf" font-size="50" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">V</tspan></text>

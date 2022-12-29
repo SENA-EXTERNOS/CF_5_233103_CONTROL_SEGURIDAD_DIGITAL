@@ -178,7 +178,7 @@
           figure
             img(src='@/assets/curso/temas/tema2/img18.svg', alt='Texto que describa la imagen')
         .col-10.col-lg-8.justify-content-center.mt-5
-          p Las normas y los sistemas de gestión relacionan la “gestión de incidencias” como medida a las interrupciones que se puedan presentar en los procesos de negocio; los términos más utilizados son los eventos y los incidentes.
+          p Las normas y los sistemas de gestión relacionan la “gestión de incidencias” como medida a las interrupciones que se puedan presentar en los procesos de negocio; los términos más utilizados son los #[b eventos y los incidentes].
           p Por evento se entiende como un cambio que no genera resultados negativos, es decir, el evento no trae implicaciones negativas, de este modo, puede ser usado como una expresión neutral, por el contrario, el incidente si representa resultados negativos, y pueden verse como las interrupciones o desmejoramiento en la calidad de los servicios prestados a los usuarios. Los incidentes deben atenderse mediante la estructura de gestión de incidencias.
 
     .row.mt-5
@@ -210,7 +210,19 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h3.text-center.mt-5 Disponibilidad:
               p.text-center.mt-3 Garantizar el acceso a las personas con los permisos o credenciales requeridas.
-   
+
+
+    .row
+      .col-lg-2
+      .col-lg-8
+        .cajon.bgr-tarjeta-2.p-4.mt-3
+          .row.justify-content-center
+            .col-lg-12
+              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+        
+      .col-lg-2
+    
+          
     
 
 </template>

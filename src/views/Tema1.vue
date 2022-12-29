@@ -109,6 +109,14 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
               .col-10.mt-3
+                p Ley 1266 de 2008: Por medio de la cual se dictan las disposiciones generales de habeas data.
+          
+          .cajon.bgr-tarjeta-2.p-4.mt-3
+            .row.justify-content-center
+              .col-4.col-lg-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+              .col-10.mt-3
                 p Ley 1273 de 2009: Modifica el código penal y crea como bien jurídico tutelado la protección de la información y de los datos.
 
           .cajon.bgr-tarjeta-2.p-4.mt-3
@@ -119,13 +127,6 @@
               .col-10.mt-3
                 p Ley 1581 de 2012: Principios y disposiciones que definen los derechos sobre los datos personales y denuncia de las violaciones de seguridad.
 
-          .cajon.bgr-tarjeta-2.p-4.mt-3
-            .row.justify-content-center
-              .col-4.col-lg-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
-              .col-10.mt-3
-                p Ley 1266 de 2008: Por medio de la cual se dictan las disposiciones generales de habeas data.
 
           .cajon.bgr-tarjeta-2.p-4.mt-3
             .row.justify-content-center
@@ -221,30 +222,42 @@
 
         p Para iniciar con la descripción de perfiles, es necesario conocer las funciones propias del #[b director de seguridad] quien lidera el proceso. Algunas de las acciones son:
 
-    .row.justify-content-center.align-items-top.mt-5
+    SlyderF(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img36.svg' alt='AvatarTop')
+        p.text-center.text-small #[b Identificación de procesos y activos]
+        p.text-center.text-small.mb-4 Junto con cada uno de los departamentos de la organización se identifican los procesos y activos, para determinar cuáles son los de nivel crítico, que al darse un ataque podrían afectar la operación e incluso la continuidad del negocio.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img37.svg' alt='AvatarTop')
+        p.text-center.text-small #[b Identificar Amenazas]
+        p.text-center.text-small.mb-4 Luego de realizar el inventario de activos, se procede a identificar cada una de las amenazas a los que estos están expuestos. Para esto se pueden aplicar metodológicas establecidas como Magerit, octave, cobit, etc.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img38.svg' alt='AvatarTop')
+        p.text-center.text-small #[b Establecer controles de seguridad]
+        p.text-center.text-small.mb-5 Se definen medidas de seguridad para implementar en la organización y mitigar el riesgo de que las amenazas se materialicen y se genere un incidente informático.
+        
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img39.svg' alt='AvatarTop')
+        p.text-center.text-small #[b Priorización en la implementación de controles]
+        p.text-center.text-small Con base en los objetivos estratégicos, se determina cuáles son las primeras medidas para implementar, categorizando según el tiempo en corto, mediano y largo plazo, ya que no se pueden implementar todas las medidas de inmediato.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img40.svg' alt='AvatarTop')
+        p.text-center.text-small #[b Revisión posterior]
+        p.text-center.text-small.width-img-slider1 Al terminar la ejecución del plan de seguridad se debe hacer un análisis total de procesos y activos, para determinar las novedades.
       
-      .col-lg-10.mb-5.mb-md-0
-        LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Identificación de procesos y activos")
-            .col-12.mb-4.mb-md-0
-              p.text-small Junto con cada uno de los departamentos de la organización se identifican los procesos y activos, para determinar cuáles son los de nivel crítico, que al darse un ataque podrían afectar la operación e incluso la continuidad del negocio.
-          
-          .row(numero="2" titulo="Identificar Amenazas")
-            .col-12.mb-4.mb-md-0
-              p.text-small Luego de realizar el inventario de activos, se procede a identificar cada una de las amenazas a los que estos están expuestos. Para esto se pueden aplicar metodológicas establecidas como Magerit, octave, cobit, etc.
-
-          .row(numero="3" titulo="Establecer controles de seguridad")
-            .col-12.mb-4.mb-md-0
-              p.text-small Se definen medidas de seguridad para implementar en la organización y mitigar el riesgo de que las amenazas se materialicen y se genere un incidente informático.
-
-          .row(numero="4" titulo="Priorización en la implementación de controles")
-            .col-12.mb-4.mb-md-0
-              p.text-small Con base en los objetivos estratégicos, se determina cuáles son las primeras medidas para implementar, categorizando según el tiempo en corto, mediano y largo plazo, ya que no se pueden implementar todas las medidas de inmediato.
-
-          .row(numero="5" titulo="Revisión posterior")
-            .col-12.mb-4.mb-md-0
-              p.text-small Al terminar la ejecución del plan de seguridad se debe hacer un análisis total de procesos y activos, para determinar las novedades.
-
     p.mt-5 #[b Profesionales de seguridad informática]
 
     p Los siguientes perfiles están asociados a los profesionales de seguridad informática, de acuerdo a las funciones se asigna un nombre específico, a continuación la descripción de algunos:
@@ -395,11 +408,11 @@
         figure
           img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen').width-img30
 
-      .tarjeta.color-primario.p-3(x="35%" y="15%" numero="")
+      .tarjeta.color-primario.p-3(x="35%" y="53%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Mantener y mejorar el proceso de gestión del riesgo
         
 
-      .tarjeta.color-primario.p-3(x="63%" y="15%" numero="")
+      .tarjeta.color-primario.p-3(x="50%" y="10%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Establecer el contexto
         br
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Evaluar el riesgo
@@ -408,10 +421,10 @@
         br
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Aceptación
 
-      .tarjeta.color-primario.p-3(x="63%" y="84%" numero="")
+      .tarjeta.color-primario.p-3(x="63%" y="57%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
 
-      .tarjeta.color-primario.p-3(x="35%" y="84%" numero="")
+      .tarjeta.color-primario.p-3(x="52%" y="84%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
 
     ImagenInfografica.mt-5.d-block.d-md-none
@@ -419,7 +432,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen').width-img30
 
-      .tarjeta.color-primario.p-3(x="19%" y="15%" numero="")
+      .tarjeta.color-primario.p-3(x="15%" y="55%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Mantener y mejorar el proceso de gestión del riesgo
         
 
