@@ -5,15 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Aplicación de Ciberseguridad
+      h1 Aplicación de ciberseguridad
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen').img10-tema1
 
       .col-10.col-lg-8.mt-5
-        p En la implementación de la ciberseguridad en la organización son necesarias herramientas de #[i hardware] y #[i software], además de cumplir con las directrices de las políticas y normas establecidas para efectos de seguridad de la información, en pro de la accesibilidad y perdurabilidad de la información digital. Para el desarrollo de este tema se presenta un ejemplo de #[i software] malicioso, una lista de recomendaciones de cómo protegerse contra el #[i malware] y cómo realizar el registro de eventos e incidentes, le invito a explorar el contenido a continuación.  
+        p En la implementación de la ciberseguridad en la organización son necesarias herramientas de #[i hardware] y #[i software,] además de cumplir con las directrices de las políticas y normas establecidas para efectos de seguridad de la información, en pro de la accesibilidad y perdurabilidad de la información digital. Para el desarrollo de este tema se presenta un ejemplo de #[i software] malicioso, una lista de recomendaciones de cómo protegerse contra el #[i malware] y cómo realizar el registro de eventos e incidentes.
 
         .row.justify-content-around.align-items-center.mt-5.mb-5
           .row.justify-content-around.align-items-center
@@ -22,10 +22,10 @@
                 .row
                   .col-12
                     p De acuerdo a los nuevos requerimientos de la administración pública derivados de la Ley de Transparencia, Ley de Protección de Datos y Ley General de Archivos, nace la necesidad de crear una directriz que permita a las entidades garantizar la accesibilidad y perdurabilidad de la información digital. De este modo, se genera el uso de diversos formatos, medios, equipos de almacenamiento digital y surgen nuevas formas de buscar y analizar la información.
-
                     p En la actualidad, la mayor parte de la información reside en servidores, redes de información y almacenamientos como nube, discos extraíbles, #[i Backups], enmarcados dentro de lo que se conoce como sistemas de información. Estos sistemas de información están sujetos a vulnerabilidades, ataques informáticos, riesgos e inseguridades dentro de la propia organización como desde fuera.
-
-    p Ejemplo de #[i software] malicioso
+    
+    .row.mb-5
+      p Tal como se informó, se presentará el ejemplo de un software malicioso, con el fin de contextualizar lo que podría pasar.
 
     SlyderB.mb-5(:datos="datosSlyder2")
 
@@ -138,12 +138,8 @@
 
             p.text-center Mantener actualizadas las bases de datos y las mejoras del sistema operativo.
 
-    separador
-
-    #t_2_1
-
-    .titulo-segundo.color-acento-contenido.mt-5
-      h2 2.1  Herramientas de #[i hardware] y #[i software]
+    .row.mt-5
+      h2 Herramientas de #[i hardware] y #[i software]
 
 
     .row.justify-content-center.mt-5
@@ -155,24 +151,26 @@
         figure
           img(src='@/assets/curso/temas/tema2/img12.svg', alt='Texto que describa la imagen')
 
-    .row.mt-5
-      p Sin embargo, la seguridad para las empresas es un tema cada vez más crítico y de preocupación constante, debido a que los ciberataques pueden ser tan catastróficos como un robo, explosión o un incendio..
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .cajon.bgr-tarjeta-3.p-4
+          .row
+            p Sin embargo, la seguridad para las empresas es un tema cada vez más crítico y de preocupación constante, debido a que los ciberataques pueden ser tan catastróficos como un robo, explosión o un incendio..
+    
+    .row.mt-5      
       p.mt-4 Algunos elementos que son parte de la infraestructura de TI para detectar y frenar amenazas son:
 
     
     SlyderB.mb-5.mt-5(:datos="datosSlyder3")
 
-    separador
 
-    #t_2_2
+    .row.mt-5
+      h2 Eventos e incidentes
 
-    .titulo-segundo.color-acento-contenido.mt-5
-      h2 2.2  Eventos e incidentes
-
-    .row
+    .row.mt-5
       p Para finalizar el tema de estudio en este componente, es necesario definir los eventos e incidentes que permiten documentar los diferentes casos asociados a riesgos, amenazas detectadas o daños causados en el sistema de información de la empresa, cómo se describe a continuación. 
 
-    .tarjeta.border.mt-4
+    .tarjeta.border.mt-5
       .row.justify-content-center
         .col-8.col-lg-4
           figure
@@ -212,15 +210,11 @@
               p.text-center.mt-3 Garantizar el acceso a las personas con los permisos o credenciales requeridas.
 
 
-    .row
-      .col-lg-2
+    .row.justify-content-center.mt-5
       .col-lg-8
-        .cajon.bgr-tarjeta-2.p-4.mt-3
-          .row.justify-content-center
-            .col-lg-12
-              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
-        
-      .col-lg-2
+        .cajon.color-acento-botones.p-4
+            p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+
     
           
     
@@ -255,25 +249,25 @@ export default {
     datosSlyder3: [
       {
         texto:
-          '<b><i>Software</i> antivirus</b><br><br>En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a <i>software</i> malicioso o cualquier otro tipo de <i>malware</i>; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.<br><br>Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los <i>malware</i> están en continua evolución.',
+          '<b><i>Software</i> antivirus</b><br><br>En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a <i>software</i> malicioso o cualquier otro tipo de <i>malware</i>; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.<br><i>Kaspersky, Avast, Nod32, McAfee,</i> son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los <i>malware</i> están en continua evolución.',
         imagen: require('@/assets/curso/temas/tema2/img13.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          '<b>Firewall perimetral de red</b><br><br>Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
+          '<b><i>Firewall</i> perimetral de red</b><br><br>Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
         imagen: require('@/assets/curso/temas/tema2/img14.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          '<b>Servidor proxy</b><br><br>Un proxy es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
+          '<b>Servidor <i>proxy</i></b><br><br>Un <i>proxy</i> es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
         imagen: require('@/assets/curso/temas/tema2/img15.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          '<b>Cifrado de punto final o end point disk encryption</b><br><br>Contiene el proceso para codificación de datos, de tal forma que no puedan ser leídos por agentes externos que no cuenten con la clave para decodificarlos. Es decir, genera protección de los sistemas operativos ante cualquier instalación o ejecución de agentes corruptos, logrando bloquear todos los archivos almacenados en el servidor, o cualquier otro punto final.',
+          '<b>Cifrado de punto final o <i>end point disk encryption</i></b><br><br>Contiene el proceso para codificación de datos, de tal forma que no puedan ser leídos por agentes externos que no cuenten con la clave para decodificarlos. Es decir, genera protección de los sistemas operativos ante cualquier instalación o ejecución de agentes corruptos, logrando bloquear todos los archivos almacenados en el servidor, o cualquier otro punto final.',
         imagen: require('@/assets/curso/temas/tema2/img16.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

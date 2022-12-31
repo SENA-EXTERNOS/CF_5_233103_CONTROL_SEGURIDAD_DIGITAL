@@ -14,9 +14,8 @@
         figure
           img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen')
       .col-lg-7.col-xs-12
-        p Bienvenido al programa Técnico en Control de la Seguridad Digital, con este programa el Servicio Nacional de Aprendizaje SENA, busca capacitar a personas en el área de las tecnologías de la información, específicamente en uno de los ámbitos que actualmente tiene más relevancia en el sector, y que presenta una gran demanda de personal técnico y profesional altamente competente, el área de la seguridad informática.
-
-        p En este componente formativo se reconocen las generalidades de la ciberseguridad, la normativa, las funciones, procesos de gestión y reportes, para que se puedan aplicar en las empresas mediante herramientas de #[i hardware] y #[i software]; de este modo es necesario estudiar los fundamentos esenciales asociados a eventos e incidentes. En el siguiente video se presenta la temática a tratar y el perfil profesional de un egresado de este programa de formación.
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se reconocen las generalidades de la ciberseguridad, la normativa, las funciones, procesos de gestión y reportes, para que se puedan aplicar en las empresas mediante herramientas de hardware y software; de este modo es necesario estudiar los fundamentos esenciales asociados a eventos e incidentes.
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
     
     figure.mt-5
       .video
