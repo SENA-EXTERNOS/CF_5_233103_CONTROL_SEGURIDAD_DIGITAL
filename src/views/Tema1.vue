@@ -353,7 +353,7 @@
           img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')
 
       .col-10.col-lg-7.mt-5
-        p Para implementar un proceso de gestión de seguridad digital, se deben conocer  las buenas prácticas y el concepto de Gestión en Sistemas de Seguridad Informática y de la Información (SGSI), siendo necesario la identificación de las fuentes de riesgos, seleccionar las herramientas para la valoración del riesgo, clasificar el impacto de las amenazas para realizar la gestión que permita proteger la empresa ante las posibles consecuencias, temáticas que se estudiarán en este item. 
+        p Las buenas prácticas y el concepto de Gestión en Sistemas de Seguridad Informática y de la Información (SGSI) son indispensables para implementar un proceso de gestión de seguridad digital siendo necesario la identificación de las fuentes de riesgos, seleccionar las herramientas para la valoración del riesgo, clasificar el impacto de las amenazas para realizar la gestión que permita proteger la empresa ante las posibles consecuencias.
 
         .row.justify-content-around.align-items-center.mt-5.mb-5
           .row.justify-content-around.align-items-center
@@ -403,77 +403,51 @@
     h2.text-center EL SGSI y la gestión del riesgo
     p.text-center Guía Icontec internacional educación
 
-    ImagenInfografica.mt-5.d-none.d-md-block
+    ImagenInfografica
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen').width-img30
 
-      .tarjeta.color-primario.p-3(x="35%" y="53%" numero="")
+      .tarjeta.color-primario.p-3(x="34%" y="47%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Mantener y mejorar el proceso de gestión del riesgo
-        
+    
 
-      .tarjeta.color-primario.p-3(x="50%" y="10%" numero="")
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Establecer el contexto
+      .tarjeta.color-primario.p-3(x="49%" y="12%" numero="")
+        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Establecer el contexto.
         br
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Evaluar el riesgo
+        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Evaluar el riesgo.
         br
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Planificar el tratamiento
+        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Planificar el tratamiento.
         br
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Aceptación
+        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Aceptación.
 
-      .tarjeta.color-primario.p-3(x="63%" y="57%" numero="")
+      .tarjeta.color-primario.p-3(x="64%" y="49%" numero="")
         <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
 
-      .tarjeta.color-primario.p-3(x="52%" y="84%" numero="")
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
+      .tarjeta.color-primario.p-3(x="49%" y="88%" numero="")
+        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Monitorear y revisar continuamente los riesgos
 
-    ImagenInfografica.mt-5.d-block.d-md-none
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen').width-img30
-
-      .tarjeta.color-primario.p-3(x="15%" y="55%" numero="")
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Mantener y mejorar el proceso de gestión del riesgo
-        
-
-      .tarjeta.color-primario.p-3(x="80%" y="15%" numero="")
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Establecer el contexto
-        br
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Evaluar el riesgo
-        br
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Planificar el tratamiento
-        br
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Aceptación
-
-      .tarjeta.color-primario.p-3(x="81%" y="84%" numero="")
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
-
-      .tarjeta.color-primario.p-3(x="19%" y="84%" numero="")
-        <i class="fas fa-angle-right" STYLE="Color: orange"></i> Implementar el plan de tratamiento del riesgo
 
     .row.justify-content-center
       .col-11
         .tarjeta.tarjeta--gris.p-3.mt-3
           p.text-center.mt-3 El SGSI y la gestión del riesgo-Guía Icontec internacional de educación. Fuente: Guía de Gestión de riesgos de seguridad de la información, 2021
 
+    
 
-    separador
+    .row.mt-5
 
-    #t_1_4
+      h3 Documentación y reporte de procesos
 
-    .titulo-segundo.color-acento-contenido.mt-5
-      h2 1.4  Documentación y reporte de procesos
-
-    p Para iniciar con el estudio de este tema, se realiza un recorrido en línea de tiempo sobre la evolución de la tecnología para luego describir las partes que componen el documento con la información y los reportes de procesos. 
+      p Para iniciar con el estudio de este tema, se realiza un recorrido en línea de tiempo sobre la evolución de la tecnología para luego describir las partes que componen el documento con la información y los reportes de procesos. 
 
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/63ke83Pc-yw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Documentación y reporte de procesos 
 
-    p.mt-5 El documento con la información y los reportes de procesos se divide en las siguientes partes:
-
-
+    p.mt-5 El documento con la información y los reportes de procesos se divide de la siguiente manera:
+    
     TabsB.color-primario.mt-5
       .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img31.png')")
         .row

@@ -19,7 +19,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       
       .col-12.col-md-8.col-lg-9
-        p.mt-5 Llegó el momento de validar los aprendizajes adquiridos con el estudio del componente formativo.  Por favor relacionar cada término con la definición, arrastrando y soltando donde corresponda.  
+        p.mt-5 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo. De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
