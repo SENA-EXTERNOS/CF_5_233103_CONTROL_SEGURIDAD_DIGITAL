@@ -399,7 +399,7 @@
     p En la identificación de riesgos se debe recordar que la inseguridad se enuncia en procesos de la composición de los resultados de un suceso y la probabilidad de ocurrencia asociada.  
 
     SlyderB.mt-5.mb-5(:datos="datosSlyder")   
-
+    p.mb-5 A continuación, podrá identificar las diferentes estrategias de mejora continua a través del ciclo PHVA.
     h2.text-center EL SGSI y la gestión del riesgo
     p.text-center Guía Icontec internacional educación
 
@@ -448,52 +448,81 @@
 
     p.mt-5 El documento con la información y los reportes de procesos se divide de la siguiente manera:
     
-    TabsB.color-primario.mt-5
-      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img31.png')")
-        .row
-          .col-md-6
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Portada.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Resumen.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Índice.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Glosario de signos, símbolos, unidades, abreviaturas, términos técnicos.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Prefacio.
-          .row.justify-content-center.mt-5
-            .col-10
-              figure
-                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img32.png')")
-        .row
-          .col-md-6
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Introducción.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Núcleo del informe con tablas, imágenes y demás material complementarios.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Conclusiones y recomendaciones.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Agradecimientos.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Listas de referencia.
-          .row.justify-content-center.mt-5
-            .col-10
-              figure
-                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.img-288(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img31.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Portada.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Resumen.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Índice.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Glosario de signos, símbolos, unidades, abreviaturas, términos técnicos.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Prefacio                 
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.img-288(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img32.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Introducción.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Núcleo del informe con tablas, imágenes y demás material complementarios.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Conclusiones y recomendaciones.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Agradecimientos.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Listas de referencia.
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.img-288(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img33.png')})`}")
+            .tarjeta-flip__contenido.px-4.p-2.py-xl-4
+              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, software, etc.
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.img-288(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img34.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Hojas de datos del documento.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Lista de distribución y disponibilidad.
+                li 
+                  i.fas.fa-angle-right.ye
+                  | Cubierta posterior, si se requiere.
 
-      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img33.png')")
-        .row
-          .col-md-6
-              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, #[i software], etc.
-          .row.justify-content-center.mt-5
-            .col-10
-              figure
-                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="" :icono="require('@/assets/curso/temas/tema1/img34.png')")
-        .row
-          .col-md-6
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Hojas de datos del documento.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Lista de distribución y disponibilidad.
-              p <i class="fas fa-angle-right" STYLE="Color: orange"></i> Cubierta posterior, si se requiere.
-          .row.justify-content-center.mt-5
-            .col-10
-              figure
-                img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mt-5
+      .col-10
+        figure
+          img(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
 
 
 </template>

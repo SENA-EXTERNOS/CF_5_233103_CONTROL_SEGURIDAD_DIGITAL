@@ -30,7 +30,7 @@
     SlyderB.mb-5(:datos="datosSlyder2")
 
     .row.mt-5
-      p Cómo protegerse contra el #[i malware]
+      p En el gráfico se presentan algunas recomendaciones sobre cómo protegerse contra el<em> malware.</em>
 
     ImagenInfografica.mt-5.mb-5.d-none.d-md-block
       template(v-slot:imagen)
