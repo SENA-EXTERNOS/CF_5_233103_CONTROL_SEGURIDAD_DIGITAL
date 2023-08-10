@@ -64,7 +64,7 @@
     .row.mt-5.justify-content-center
       .col-10.col-lg-9
         p En el  desarrollo de las tecnologías, #[i software] y algoritmo del sistema de información se presentan unos riesgos que influyen sobre la planificación en la protección de la red y el tratamiento de los datos o sistemas de información, por ejemplo: dentro de la operación de algoritmos se pueden producir sesgos humanos o fallas técnicas en la implementación, sólo a través de estas medidas se podrán controlar y evaluar los riesgos desde la normativa para que no afecten la seguridad de la información y no se vulneren los derechos de los titulares de los datos.
-
+        h4 Medidas preventivas
         p Personas con equipos de cómputo tratando de acceder sin lograrlo porque tiene sistema de seguridad.
 
       .col-10.col-lg-3
@@ -72,7 +72,7 @@
           img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
 
     .row.mt-5
-      h2 Normativa
+      h5 Normativa
 
     .row.mt-5
       .col-8.col-lg-2

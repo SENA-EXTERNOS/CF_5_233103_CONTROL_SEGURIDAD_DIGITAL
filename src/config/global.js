@@ -224,7 +224,7 @@ export default {
       referencia:
         'Gobierno de España. (2021). Las herramientas de análisis de datos más populares. ',
       link:
-        '. https://datos.gob.es/es/blog/las-herramientas-de-analisis-de-datos-mas-populares',
+        'https://datos.gob.es/es/blog/las-herramientas-de-analisis-de-datos-mas-populares',
     },
     {
       referencia:
@@ -235,13 +235,13 @@ export default {
       referencia:
         'Hopkin, P. (2010). Fundamentals of risk management: understanding, evaluating, and implementing effective risk management. Londres, Reino Unido: Kogan Page Limited.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
+        'https://handoutset.com/wp-content/uploads/2022/05/Fundamentals-of-Risk-Management-Understanding-evaluating-and-implementing-effective-risk-management-Paul-Hopkin.pdf',
     },
     {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2014). Tecnología De La Información: Técnicas De Seguridad. Gestión De Incidentes De Seguridad De La Información. Bogotá: ICONTEC. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000012244',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
     },
     {
       referencia:
@@ -254,11 +254,6 @@ export default {
         'Ley 1273. (2009). Modifica el código penal y crea como bien jurídico tutelado la protección de la información y de los datos (5 de enero de 2009). ',
       link:
         'https://www.sic.gov.co/recursos_user/documentos/normatividad/Ley_1273_2009.pdf',
-    },
-    {
-      referencia:
-        'Reglamentó aspectos relacionados con la titularidad del uso de la información para el tratamiento de sus datos personales. (2012). Decreto 1377',
-      link: '',
     },
     {
       referencia:
@@ -285,75 +280,87 @@ export default {
       referencia:
         'Xataka Basics. (2017). Qué es un proxy y cómo puedes utilizarlo para navegar de forma más anónima. ',
       link:
-        ' https://www.xataka.com/basics/que-es-un-proxy-y-como-puedes-utilizarlo-para-navegar-de-forma-mas-anonima ',
+        'https://www.xataka.com/basics/que-es-un-proxy-y-como-puedes-utilizarlo-para-navegar-de-forma-mas-anonima ',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2016). Gestión Del Riesgo: Orientación Para La Implementación De La NTC-ISO 31000 = Risk Management: Guidance for the Implementation of ISO 31000. Bogotá: Icontec.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000012244',
+    },
+    {
+      referencia:
+        'Ley 1581 de 2012. Principios y disposiciones que definen los derechos sobre los datos personales y denuncia de las violaciones de seguridad del 17 de octubre del 2012.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
-  },
+  // creditos: {
+  //   liderEquipo: [
+  //     {
+  //       nombre: 'Maria Camila Garcia Santamaria',
+  //       cargo: 'Líder del equipo',
+  //       centro: 'Dirección General',
+  //     },
+  //   ],
+  //   contenidoInstruccional: [
+  //     {
+  //       nombre: 'Rafael Neftalí Lizcano Reyes',
+  //       cargo: 'Asesor metodológico y pedagógico',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //   ],
+  //   desarrolloProducto: [
+  //     {
+  //       nombre: 'Francisco José Lizcano Reyes',
+  //       cargo: 'Responsable del equipo',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Nombre',
+  //       cargo: 'Diseño web',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Nombre',
+  //       cargo: 'Producción audiovisual',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Nombre',
+  //       cargo: 'Desarrollo front-end',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Nombre',
+  //       cargo: 'Validación de diseño y contenido',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //   ],
+  //   gestoresRepositorio: [
+  //     {
+  //       nombre: 'Álvaro Andrés Angarita Ramirez',
+  //       cargo: 'Validación y vinculación en plataforma LMS',
+  //       centro: 'Centro de Comercio y Servicios - Regional Tolima',
+  //     },
+  //     {
+  //       nombre: 'Daniel Felipe Varón Molina',
+  //       cargo: 'Validación y vinculación en plataforma LMS',
+  //       centro: 'Centro de Comercio y Servicios - Regional Tolima',
+  //     },
+  //     {
+  //       nombre: 'Milady Tatiana Villamil Castellanos',
+  //       cargo: 'Validación y vinculación en plataforma LMS',
+  //       centro: 'Centro de Comercio y Servicios - Regional Tolima',
+  //     },
+  //   ],
+  // },
   // creditosInicio: [
   //   {
   //     titulo: 'En alianza',

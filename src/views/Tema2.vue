@@ -155,7 +155,7 @@
       .col-lg-10
         .cajon.bgr-tarjeta-3.p-4
           .row
-            p Sin embargo, la seguridad para las empresas es un tema cada vez más crítico y de preocupación constante, debido a que los ciberataques pueden ser tan catastróficos como un robo, explosión o un incendio..
+            p Sin embargo, la seguridad para las empresas es un tema cada vez más crítico y de preocupación constante, debido a que los ciberataques pueden ser tan catastróficos como un robo, explosión o un incendio.
     
     .row.mt-5      
       p.mt-4 Algunos elementos que son parte de la infraestructura de TI para detectar y frenar amenazas son:
