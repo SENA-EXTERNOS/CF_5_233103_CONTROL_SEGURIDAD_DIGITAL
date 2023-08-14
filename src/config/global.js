@@ -210,12 +210,6 @@ export default {
     },
     {
       referencia:
-        'Reglamentó aspectos relacionados con la titularidad del uso de la información para el tratamiento de sus datos personales. Decreto 1377 del 26 de junio de 2012. (Colombia). ',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=48018#:~:text=El%20presente%20decreto%20tiene%20por,2002%2C%20adicionado%20por%20el%20art%C3%ADculo',
-    },
-    {
-      referencia:
         'DNP. Guía normativa aplicable a la explotación de datos del 2020. (Colombia).',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Digital/Documentos/Modelo%20Explotacion%20de%20datos/2.3%20Gu%C3%ADa%20normativa%20explotaci%C3%B3n%20de%20datos_VF.pdf',
