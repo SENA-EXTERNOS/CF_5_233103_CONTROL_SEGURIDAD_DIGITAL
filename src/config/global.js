@@ -253,7 +253,7 @@ export default {
       referencia:
         'Reglamentó aspectos relacionados con la titularidad del uso de la información para el tratamiento de sus datos personales. (2012). Decreto 1377.',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=53646#0',
     },
     {
       referencia:
