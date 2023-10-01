@@ -163,7 +163,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img13.svg', alt='Texto que describa la imagen').img10-tema1
       .col-10.col-lg-7.mt-5
-        p Teniendo en cuenta la importancia de una arquitectura de almacenamiento de datos, hay una  normativa legal en la empresas que deben establecer unas políticas de usuario que permitan el desarrollo de un Sistema de Gestión de Seguridad de la Información, que debe iniciar con la documentación de procesos y conociendo cómo opera la organización, también revisar el manual de funciones de cada empleado cómo paso fundamental para aplicar el ciclo Planear-Hacer-Verificar-Actuar PHVA, y en la acción, para planear es necesario conocer los procesos digitales críticos en la organización, que luego detalladamente se deben analizar para implementar controles que puedan proteger los procesos implementados ante amenazas cibernéticas.
+        p Teniendo en cuenta la importancia de una arquitectura de almacenamiento de datos, hay una  normativa legal en la empresas que deben establecer unas políticas de usuario que permitan el desarrollo de un Sistema de Gestión de Seguridad de la Información, que debe iniciar con la documentación de procesos y conociendo cómo opera la organización, también revisar el manual de funciones de cada empleado como paso fundamental para aplicar el ciclo Planear-Hacer-Verificar-Actuar PHVA, y en la acción, para planear es necesario conocer los procesos digitales críticos en la organización, que luego detalladamente se deben analizar para implementar controles que puedan proteger los procesos implementados ante amenazas cibernéticas.
         p El ciclo PHVA, cobra gran importancia en los procesos de ciberseguridad y entender cada una de las fases, por ejemplo en planear es posible detectar las amenazas internas, que parecieran ser externas porque vienen del internet, y que en realidad no son a causa de un ser humano con intenciones maliciosas, sino de los mismos empleados que al no estar capacitados descargan programas que vienen con virus tipo troyanos o sin intención maliciosa que puede mover un directorio o archivo, también se deben revisar las políticas que tengan contempladas el departamento de Tecnologías de la Información (TI) de la organización.
 
     p.mt-5 La importancia de bajar las amenazas es indispensable, así como existen algunas recomendaciones:
@@ -241,7 +241,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/icono8.svg", alt="").icono
             .col-lg-10
-              p Luego de realizar el inventario de activos, se procede a identificar cada una de las amenazas a los que estos están expuestos. Para esto se pueden aplicar metodológicas establecidas como Magerit, octave, cobit, etc.
+              p Luego de realizar el inventario de activos, se procede a identificar cada una de las amenazas a los que estos están expuestos. Para esto se pueden aplicar metodologías establecidas como Magerit, octave, cobit, etc.
 
           .row.justify-content-center.p-3(numero="3" titulo="Establecer controles de seguridad")
             .col-6.col-lg-2.mb-4
@@ -278,7 +278,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen')
                 .col-lg-8
-                  p Encargado de la seguridad del #[i hardware] y #[i software] de toda la red, elementos como #[i routers], #[i switches], #[i firewalls, IDS, IPS, DNS] etc.
+                  p Encargado de la seguridad del #[i hardware] y #[i software] de toda la red, elementos como #[i routers], #[i switches], #[i firewalls, IDS, IPS, DNS], etc.
 
           .row(titulo="Jefe de sistemas -CIO")
             .col-12
@@ -500,7 +500,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.img-288(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img33.png')})`}")
             .tarjeta-flip__contenido.px-4.p-2.py-xl-4
-              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, software, etc.
+              p Los anexos se consideran separadamente de la parte final, porque, aunque en muchas ocasiones no se requiere, en otras, forman parte esencial y complemento de información de algunos informes. Se usan para presentar material que complementa el texto, éstos pueden ser: tablas, imágenes, material especial, bibliografía, descripción de equipos, #[em software], etc.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")

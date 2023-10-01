@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Ciberseguridad, Generalidades y aplicaciones',
+    componenteFormativo: 'Ciberseguridad: Generalidades y aplicaciones',
     descripcionCurso:
       'Clasificar y almacenar los datos es cada vez más importante, se deben considerar diversas técnicas, análisis y normas que aporten al crecimiento de la organización. La manipulación de volúmenes de datos trae consigo un alto grado de responsabilidad en seguridad, clasificación, conservación y no duplicación de los datos recolectados, exigiendo que se respeten y monitoreen los riesgos que pueden presentarse.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
@@ -124,7 +124,7 @@ export default {
     {
       termino: 'Antivirus',
       significado:
-        'programas que permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a software malicioso o cualquier otro tipo de malware; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.',
+        'programas que permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a <em>software</em> malicioso o cualquier otro tipo de <em>malware</em>; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena.',
     },
     {
       termino: 'Ciberseguridad',
@@ -134,7 +134,7 @@ export default {
     {
       termino: 'Escáner de vulnerabilidades',
       significado:
-        'software que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado.',
+        '<em>software</em> que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado.',
     },
     {
       termino: 'Evento',
@@ -142,12 +142,12 @@ export default {
         'cambio que no genera resultados negativos, un evento no trae implicaciones negativas, de este modo, puede ser usado como una expresión neutral.',
     },
     {
-      termino: 'Firewall',
+      termino: '<em>Firewall</em>',
       significado:
         'sistema cuya función es prevenir y proteger la red privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
     },
     {
-      termino: 'Hardware',
+      termino: '<em>Hardware<em>',
       significado:
         'componentes físicos del computador, es decir, todo lo que se puede ver y tocar.',
     },
@@ -157,7 +157,7 @@ export default {
         'representa resultados negativos. Pueden verse como las interrupciones o desmejoramiento en la calidad de los servicios prestados a los usuarios. Los incidentes deben atenderse mediante la estructura de gestión de incidencias.',
     },
     {
-      termino: 'Proxy',
+      termino: '<em>Proxy</em>',
       significado:
         'programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
     },
@@ -172,7 +172,7 @@ export default {
         'se encarga de proteger los datos contra robo de información, acceso no autorizado, obstaculización al sistema informático, manipulación y/o eliminación de datos.',
     },
     {
-      termino: 'Software',
+      termino: '<em>Software</em>',
       significado:
         'todos los programas que contribuyen al funcionamiento de un conjunto de procesamiento de datos. (Sistemas operativos, aplicaciones, etc.)',
     },

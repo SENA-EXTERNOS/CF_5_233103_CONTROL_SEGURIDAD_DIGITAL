@@ -255,13 +255,13 @@ export default {
       },
       {
         texto:
-          '<b><i>Firewall</i> perimetral de red</b><br><br>Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
+          '<b><i>Firewall</i> perimetral de red</b><br><br>Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la red privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
         imagen: require('@/assets/curso/temas/tema2/img14.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         texto:
-          '<b>Servidor <i>proxy</i></b><br><br>Un <i>proxy</i> es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
+          '<b>Servidor <i>proxy</i></b><br><br>Un <i>proxy</i> es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
         imagen: require('@/assets/curso/temas/tema2/img15.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

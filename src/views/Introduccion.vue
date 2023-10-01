@@ -14,7 +14,7 @@
         figure
           img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen')
       .col-lg-7.col-xs-12
-        p Apreciado aprendiz, bienvenido a este componente formativo, donde se reconocen las generalidades de la ciberseguridad, la normativa, las funciones, procesos de gestión y reportes, para que se puedan aplicar en las empresas mediante herramientas de hardware y software; de este modo es necesario estudiar los fundamentos esenciales asociados a eventos e incidentes.
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se reconocen las generalidades de la ciberseguridad, la normativa, las funciones, procesos de gestión y reportes, para que se puedan aplicar en las empresas mediante herramientas de #[em hardware] y #[em software]; de este modo es necesario estudiar los fundamentos esenciales asociados a eventos e incidentes.
         p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
     
     figure.mt-5
